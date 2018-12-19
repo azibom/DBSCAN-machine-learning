@@ -5,7 +5,7 @@ Density-Based Spatial Clustering of Applications with Noise
 
 #### You need to search in the internet and see the difference between this algorithm and the other aogoritms
 
-`` `python
+```python
 # import requirements
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
@@ -20,7 +20,7 @@ labels = dbscan.labels_
 
 plt.scatter (iris.data [:, 0], iris.data [:, 1], c = labels)
 plt.show ()
-`` `
+```
 
 you can change eps and min_samples and see what happens
 
